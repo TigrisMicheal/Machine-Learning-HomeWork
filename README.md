@@ -16,4 +16,4 @@
 
 作业2：在构建一个决策树模型时，我们对某个属性分割节点，下面四张图中，哪个属性对应的信息增益最大？
 	
-			
+			![https://github.com/TigrisMicheal/Machine-Learning-HomeWork/blob/master/Img/Week_homework%202.png]
