@@ -1,0 +1,11 @@
+import trees
+import treePlotter
+
+
+fr = open (r'C:\Users\MILI\Desktop\Machine learning\MachineLearningInAction-Camp\Week2\Reference Code\lenses.txt')
+lenses = [inst.strip().split('\t')for inst in fr.readlines()]
+lensesLabels = ['age','prescript','astigmatic','tearRate']
+lensesTree = trees.createTree(lenses,lensesLabels)
+print (lensesTree)
+treePlotter.createPlot( lensesTree )
+
